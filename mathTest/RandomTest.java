@@ -1,6 +1,6 @@
 package mathTest;
 
-public class randomTest {
+public class RandomTest {
 
     static int returnRandomNumber(){
         int randomNumber = (int)Math.random()*100;
