@@ -2,14 +2,11 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        while(true){
-            int a = sc.nextInt();
-            int b = sc.nextInt();
-            if(a>0&&b<10){
-                System.out.println(a+b);
-            }else{
-                break;
-            }
+        int sum= 0;
+        int n = sc.nextInt();
+        for(int i =1;i<n+1;i++){
+            sum += i;
         }
+        System.out.println(sum);
     }
 }
